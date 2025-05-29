@@ -2,8 +2,8 @@
 set -euo pipefail
 
 # Change these defaults if you rename the repo or directory
-REPO_URL="${REPO_URL:-https://github.com/JustInternetAI/hf_llm_course.git}"
-REPO_DIR="${REPO_DIR:-hf_llm_course}"
+REPO_URL="${REPO_URL:-https://github.com/JustInternetAI/hf_notebooks.git}"
+REPO_DIR="${REPO_DIR:-hf_notebooks}"
 
 # Which branch to check out (default to main)
 BRANCH="${BRANCH:-main}"
