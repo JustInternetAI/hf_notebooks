@@ -11,7 +11,7 @@ services:
       - /mnt/shared:/workspace/shared:cached
 
     # ensure entrypoint.sh runs (clones & checks out the right branch)
-    entrypoint: ["/usr/local/binentrypoint.sh"]
+    entrypoint: ["/usr/local/bin/entrypoint.sh"]
     command: ["bash"]
 
 
