@@ -11,10 +11,10 @@ WORKDIR /workspace
 
 
 # Copy the entrypoint from the .docker folder into the image
-COPY .docker/entrypoint.sh /workspace/entrypoint.sh
-RUN chmod +x /workspace/entrypoint.sh
+COPY .docker/entrypoint.sh /usr/local/bin/entrypoint.sh
+RUN chmod +x /usr/local/bin/entrypoint.sh
 
-ENTRYPOINT ["/workspace/entrypoint.sh"]
+ENTRYPOINT ["/use/local/bin/entrypoint.sh"]
 CMD ["bash"]
 
 
